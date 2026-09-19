@@ -21,7 +21,7 @@
     "description": "A collection of TurboWarp/PotentiaMod extension originaly made from VM built-ins.",
     "upstream": "https://gaiawindwave90.github.io/VM-to-JS-Extensions/",
     "packURL": null,
-    "extensionCount": 5
+    "extensionCount": 9
   },
   {
     "slug": "sharkpool",

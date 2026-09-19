@@ -18,6 +18,18 @@
       ]
     },
     {
+      "slug": "code/Scratch3PuzzleBlocks.js",
+      "id": "puzzle",
+      "name": "Puzzle",
+      "description": "Puzzle blocks.",
+      "image": "thumbs/puzzle.png",
+      "by": [
+        {
+          "name": "GitBlock"
+        }
+      ]
+    },
+    {
       "slug": "code/Scratch3WebKit.js",
       "id": "webkit",
       "name": "Web kit",
@@ -26,6 +38,30 @@
       "by": [
         {
           "name": "toonco1"
+        }
+      ]
+    },
+    {
+      "slug": "code/MinecraftEdu.js",
+      "id": "minecraft",
+      "name": "Minecraft EDU",
+      "description": "Minecraft EDU extension.",
+      "image": "thumbs/minecraft.png",
+      "by": [
+        {
+          "name": "PlusPlus"
+        }
+      ]
+    },
+    {
+      "slug": "code/Scratch3MissMixALot.js",
+      "id": "missmixalot",
+      "name": "Miss Mix A Lot",
+      "description": "Miss Mix A Lot blocks.",
+      "image": "thumbs/missmixalot.png",
+      "by": [
+        {
+          "name": "Coding Class Odense"
         }
       ]
     },
@@ -62,6 +98,18 @@
       "by": [
         {
           "name": "Adacraft"
+        }
+      ]
+    },
+    {
+      "slug": "code/DeepSeekExtension.js",
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "description": "Interact with DeepSeek.",
+      "image": "thumbs/placeholder.png",
+      "by": [
+        {
+          "name": "DeepSeek"
         }
       ]
     }
