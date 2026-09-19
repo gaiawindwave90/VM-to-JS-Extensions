@@ -16,6 +16,14 @@
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
     },
+	"ClipCC Blocks": {
+      "desc": "Clip Blocks extension.",
+      "creator": "ClipTeam",
+      "url": "ClipBlocks.js",
+      "banner": "CCUnknownExtension.jpg",
+      "tags": ["All"],
+      "date": "Last Updated: 09/19/2026"
+    },
 	"Future Board": {
       "desc": "Future Board extension.",
       "creator": "PlusPlus",
