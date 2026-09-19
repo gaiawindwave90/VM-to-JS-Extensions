@@ -105,13 +105,6 @@ function initGUI() {
     }
   }
 
-  /* Change Logo */
-  if (isPenguinMod) {
-    const logo = document.querySelector(`img[class="toHost"]`);
-    logo.src = "pages/main-assets/logo-PM.svg";
-    logo.setAttribute("onclick", "window.open('https://penguinmod.com/')");
-  }
-}
 
   if (isPotentiaMod) {
     const logo = document.querySelector(`img[class="toHost"]`);
