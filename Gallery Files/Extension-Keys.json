@@ -55,7 +55,7 @@
       "banner": "futureBoard.png",
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
-    },,
+    },
 	"Chronometer": {
       "desc": "Chronometer extension.",
       "creator": "Adacraft",
@@ -63,7 +63,7 @@
       "banner": "placeholder.png",
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
-    }
+    },
 	"DeepSeek": {
       "desc": "Interact with DeepSeek.",
       "creator": "DeepSeek",
