@@ -8,11 +8,35 @@
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
     },
+	"Puzzle": {
+      "desc": "Puzzle blocks.",
+      "creator": "GitBlock",
+      "url": "Scratch3PuzzleBlocks.js",
+      "banner": "puzzle.png",
+      "tags": ["All"],
+      "date": "Last Updated: 09/19/2026"
+    },
     "Web kit": {
       "desc": "Make your own webkit!",
       "creator": "toonco1",
       "url": "Scratch3WebKit.js",
       "banner": "webKit.png",
+      "tags": ["All"],
+      "date": "Last Updated: 09/19/2026"
+    },
+	"Minecraft EDU": {
+      "desc": "Minecraft EDU extension.",
+      "creator": "PlusPlus",
+      "url": "MinecraftEdu.js",
+      "banner": "minecraft.png",
+      "tags": ["All"],
+      "date": "Last Updated: 09/19/2026"
+    },
+	"Miss Mix A Lot": {
+      "desc": "Miss Mix A Lot blocks.",
+      "creator": "Coding Class Odense",
+      "url": "Scratch3MissMixALot.js",
+      "banner": "missmixalot.png",
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
     },
@@ -31,11 +55,19 @@
       "banner": "futureBoard.png",
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
-    },
+    },,
 	"Chronometer": {
       "desc": "Chronometer extension.",
       "creator": "Adacraft",
       "url": "Chronometer.js",
+      "banner": "placeholder.png",
+      "tags": ["All"],
+      "date": "Last Updated: 09/19/2026"
+    }
+	"DeepSeek": {
+      "desc": "Interact with DeepSeek.",
+      "creator": "DeepSeek",
+      "url": "DeepSeekExtension.js",
       "banner": "placeholder.png",
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
