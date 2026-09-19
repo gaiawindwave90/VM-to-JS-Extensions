@@ -64,10 +64,10 @@ async function downloadExt(name, url) {
   url = "code/" + url;
   if (isPotentiaMod) {
     const messager = window.opener || window.parent;
-    if (!messager) return alert("Failed to request to isPotentiaMod!");
+    if (!messager) return alert("Failed to request to PotentiaMod!");
     messager.postMessage({
       loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
-    }, "https://potentiamod.github.io/online/editor.html");
+    }, "https://potentiamod.github.io/editor.html");
     messager.postMessage({
       loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
     }, "https://potentiamod.github.io/scratch-gui/editor.html"); // For development purposes
