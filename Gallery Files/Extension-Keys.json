@@ -48,6 +48,14 @@
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
     },
+	"JS": {
+      "desc": "JS Blocks. Some blocks are only VM-exclusive.",
+      "creator": "Gvbvdxx",
+      "url": "Scratch3Dialogs.js",
+      "banner": "dialogs.png",
+      "tags": ["All"],
+      "date": "Last Updated: 09/19/2026"
+    },
 	"Future Board": {
       "desc": "Future Board extension.",
       "creator": "PlusPlus",
