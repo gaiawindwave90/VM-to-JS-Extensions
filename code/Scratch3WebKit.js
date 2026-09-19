@@ -2,6 +2,9 @@
 // ID: webkit
 // Description: Make your own webkit!
 // By: toonco1
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";

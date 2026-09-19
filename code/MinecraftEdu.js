@@ -2,6 +2,9 @@
 // ID: minecraft
 // Description: Minecraft EDU extension.
 // By: PlusPlus
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";

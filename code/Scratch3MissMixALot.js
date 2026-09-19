@@ -2,6 +2,9 @@
 // ID: missmixalot
 // Description: Miss Mix A Lot blocks.
 // By: Coding Class Odense
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";

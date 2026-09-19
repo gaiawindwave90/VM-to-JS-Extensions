@@ -2,6 +2,9 @@
 // ID: clipblocks
 // Description: Clip Blocks extension.
 // By: ClipTeam
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";

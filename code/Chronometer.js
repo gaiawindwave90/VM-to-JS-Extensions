@@ -2,6 +2,9 @@
 // ID: chronometer
 // Description: Chronometer extension.
 // By: Adacraft
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";

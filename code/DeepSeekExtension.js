@@ -2,6 +2,9 @@
 // ID: DeepSeekExtension
 // Description: Interact with DeepSeek.
 // By: ???
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";

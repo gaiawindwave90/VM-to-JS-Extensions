@@ -2,6 +2,9 @@
 // ID: futureBoard
 // Description: Future Board extension.
 // By: PlusPlus
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";

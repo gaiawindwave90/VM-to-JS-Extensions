@@ -2,6 +2,9 @@
 // ID: nft
 // Description: Create NFTs.
 // By: Digital Education Safety
+// License: MIT
+
+// Version V.0.0.01
 
 (function(Scratch) {
     const variables = {};

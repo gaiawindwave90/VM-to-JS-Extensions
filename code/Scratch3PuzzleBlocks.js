@@ -2,6 +2,9 @@
 // ID: puzzle
 // Description: Puzzle blocks.
 // By: GitBlock
+// License: MIT
+
+// Version V.0.0.01
 
 (function (Scratch) {
 	"use strict";
