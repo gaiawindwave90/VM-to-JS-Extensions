@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "ddededodediamante",
+    "name": "ddededodediamante",
+    "description": "Extensions by ddededodediamante for TurboWarp, PenguinMod, and NitroBolt.",
+    "upstream": "https://dde-ext-gallery.vercel.app/",
+    "packURL": "https://dde-ext-gallery.vercel.app/extensions/pack.json",
+    "extensionCount": 11
+  },
+  {
+    "slug": "elmobear",
+    "name": "ElmoBear",
+    "description": "Extensions by ElmoBear.",
+    "upstream": "https://kylekart.github.io/ScratchExtensions/",
+    "packURL": "https://kylekart.github.io/ScratchExtensions/pack.json",
+    "extensionCount": 14
+  },
+  {
+    "slug": "built-ins",
+    "name": "Former VM Collection",
+    "description": "A collection of TurboWarp/PotentiaMod extension originaly made from VM built-ins.",
+    "upstream": "https://gaiawindwave90.github.io/VM-to-JS-Extensions/",
+    "packURL": null,
+    "extensionCount": 5
+  },
+  {
+    "slug": "sharkpool",
+    "name": "SharkPool",
+    "description": "SharkPool's collection of TurboWarp and PenguinMod extensions.",
+    "upstream": "https://sharkpools-extensions.vercel.app/",
+    "packURL": null,
+    "extensionCount": 67
+  }
+]

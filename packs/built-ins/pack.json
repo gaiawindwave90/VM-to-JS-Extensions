@@ -1,0 +1,69 @@
+{
+  "information": {
+    "name": "Former Built-Ins",
+    "tag": "builtinformer",
+    "source": "https://gaiawindwave90.github.io/VM-to-JS-Extensions/"
+  },
+  "extensions": [
+    {
+      "slug": "code/Scratch3NftBlocks.js",
+      "id": "nft",
+      "name": "NFT Collection Utilities",
+      "description": "Create NFTs.",
+      "image": "thumbs/nft.png",
+      "by": [
+        {
+          "name": "Digital Education Safety"
+        }
+      ]
+    },
+    {
+      "slug": "code/Scratch3WebKit.js",
+      "id": "webkit",
+      "name": "Web kit",
+      "description": "Make your own webkit!",
+      "image": "thumbs/webKit.png",
+      "by": [
+        {
+          "name": "toonco1"
+        }
+      ]
+    },
+    {
+      "slug": "code/ClipBlocks.js",
+      "id": "clipblocks",
+      "name": "ClipCC Blocks",
+      "description": "Clip Blocks extension.",
+      "image": "thumbs/CCUnknownExtension.jpg",
+      "by": [
+        {
+          "name": "ClipTeam"
+        }
+      ]
+    },
+    {
+      "slug": "code/FutureBoard.js",
+      "id": "futureBoard",
+      "name": "Future Board",
+      "description": "Future Board extension.",
+      "image": "thumbs/futureBoard.png",
+      "by": [
+        {
+          "name": "PlusPlus"
+        }
+      ]
+    },
+    {
+      "slug": "code/Chronometer.js",
+      "id": "adachronometer",
+      "name": "Chronometer",
+      "description": "Chronometer extension.",
+      "image": "thumbs/placeholder.png",
+      "by": [
+        {
+          "name": "Adacraft"
+        }
+      ]
+    }
+  ]
+}
