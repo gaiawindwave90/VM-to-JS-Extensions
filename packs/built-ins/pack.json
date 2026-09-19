@@ -78,6 +78,18 @@
       ]
     },
     {
+      "slug": "code/Scratch3Dialogs.js",
+      "id": "dialogs",
+      "name": "JS",
+      "description": "JS Blocks. Some blocks are only VM-exclusive.",
+      "image": "thumbs/dialogs.png",
+      "by": [
+        {
+          "name": "Gvbvdxx"
+        }
+      ]
+    },
+    {
       "slug": "code/FutureBoard.js",
       "id": "futureBoard",
       "name": "Future Board",
