@@ -1,7 +1,7 @@
 // Name: DeepSeek
 // ID: DeepSeekExtension
 // Description: Interact with DeepSeek.
-// By: ???
+// By: DeepSeek
 // License: MIT
 
 // Version V.0.0.01
