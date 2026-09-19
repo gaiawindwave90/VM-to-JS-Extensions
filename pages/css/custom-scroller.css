@@ -1,6 +1,6 @@
 :root {
     --track-color: #171717;
-    --thumb-color: #34befa;
+    --thumb-color: #FA34F7;
     --scrollbar-width: 22px;
     --scrollbar-radius: 50px;
     --scrollbar-width-moz: auto;
@@ -16,14 +16,14 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   border-radius: var(--scrollbar-radius);
-  border: 3px solid #c7feff;
+  border: 3px solid #FFC7F8;
   background-clip: padding-box;
   background: repeating-linear-gradient(
     to bottom,
-    #175773,
-    #175773 16px,
-    #c7feff 16px,
-    #c7feff 19px
+    #731771,
+    #731771 16px,
+    #FFC7F8 16px,
+    #FFC7F8 19px
   );
 }
 

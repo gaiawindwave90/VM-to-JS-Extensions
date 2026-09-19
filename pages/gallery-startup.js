@@ -105,7 +105,6 @@ function initGUI() {
     }
   }
 
-
   if (isPotentiaMod) {
     const logo = document.querySelector(`img[class="toHost"]`);
     logo.src = "pages/main-assets/logo-Pot.svg";
