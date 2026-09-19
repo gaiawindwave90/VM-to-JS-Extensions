@@ -71,7 +71,7 @@ class SettingsModal extends HTMLElement {
           background: repeating-linear-gradient(to bottom, #0c152b 0%, #0c152b 4%, #00314b 4%, #00314b 5%, #0c152b 5%);
           padding: 15px 20px 20px 20px;
           border-radius: 25px;
-          border: outset 10px #0073ff;
+          border: outset 10px #FB00FF;
           box-shadow: 0 0 0 7px #fff;
           user-select: text;
         }
@@ -98,8 +98,8 @@ class SettingsModal extends HTMLElement {
           -webkit-text-stroke: .5px #fff;
           letter-spacing: 1px;
           font-size: 1.5em;
-          background: linear-gradient(#00b8ff, #007dff);
-          border: solid 4.5px #0035ff;
+          background: linear-gradient(#FF00D5, #FF00E1);
+          border: solid 4.5px #D400B8;
           border-radius: 18px;
           box-shadow: 0 0 0 2px;
           margin-top: 5px;
@@ -147,11 +147,11 @@ class SettingsModal extends HTMLElement {
           margin: 15px;
           border: solid 3px #fff;
           border-radius: 50px;
-          background: linear-gradient(#00a5ff, #0073ff);
+          background: linear-gradient(#FF00D5, #FF00D5);
           transform: scale(1.1);
         }
         .search-inner {
-          background: linear-gradient(#0c152b, #00314b);
+          background: linear-gradient(#2B0C27, #4B0047);
           color: #fff;
           border: solid 2px #fff;
           margin: 5px;
