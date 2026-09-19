@@ -61,21 +61,38 @@ function displayExts(json, optFadeIn) {
 }
 
 async function downloadExt(name, url) {
-  url = "extension-code/" + url;
+  url = "code/" + url;
   if (isPenguinMod) {
     const messager = window.opener || window.parent;
     if (!messager) return alert("Failed to request to PenguinMod!");
     messager.postMessage({
-      loadExt: `https://sharkpools-extensions.vercel.app/${url}`
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
     }, "https://studio.penguinmod.com/editor.html");
     messager.postMessage({
-      loadExt: `https://sharkpools-extensions.vercel.app/${url}`
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
     }, "https://penguinmod-port.github.io/scratch-gui/editor.html"); // For development purposes
 
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     genText(
       "center-notif",
       `Copied to PenguinMod!${isMobile ? "<br>" : " " }Check the Editor`
+    );
+    return;
+  }
+    if (isPotentiaMod) {
+    const messager = window.opener || window.parent;
+    if (!messager) return alert("Failed to request to PotentiaMod!");
+    messager.postMessage({
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
+    }, "https://potentiamod.github.io/scratch-gui/editor.html"); // For development purposes
+	messager.postMessage({
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
+    }, "https://potentiamod.github.io/online/editor.html");
+
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    genText(
+      "center-notif",
+      `Copied to PotentiaMod!${isMobile ? "<br>" : " " }Check the Editor`
     );
     return;
   }

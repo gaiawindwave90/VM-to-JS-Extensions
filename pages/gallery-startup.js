@@ -1,5 +1,6 @@
 /* Public Variables */
 let isPenguinMod = false;
+let isPotentiaMod = false;
 let allTags, currentTags = ["all"];
 let downloadType = "download";
 let compress = false, eraseDeprecation = false;
@@ -109,6 +110,13 @@ function initGUI() {
     const logo = document.querySelector(`img[class="toHost"]`);
     logo.src = "pages/main-assets/logo-PM.svg";
     logo.setAttribute("onclick", "window.open('https://penguinmod.com/')");
+  }
+}
+
+  if (isPotentiaMod) {
+    const logo = document.querySelector(`img[class="toHost"]`);
+    logo.src = "pages/main-assets/logo-Pot.svg";
+    logo.setAttribute("onclick", "window.open('https://potentiamod.github.io/')");
   }
 }
 
@@ -284,6 +292,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const params = new URLSearchParams(location.search);
     isPenguinMod = params.get("originPM") === "true";
+    isPotentiaMod = params.get("originPot") === "true";
     getCleanStorage();
 
     const urlTags = params.get("tag");
