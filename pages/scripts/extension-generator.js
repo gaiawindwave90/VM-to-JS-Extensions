@@ -41,7 +41,7 @@ function displayExts(json, optFadeIn) {
       isOverride, optFadeIn
     };
     if (isOverride) info.banner = "pages/main-assets/404.svg";
-    else info.banner = "extension-thumbs/" + info.banner;
+    else info.banner = "thumbs/" + info.banner;
     const status = info.status;
 
     if (shouldSplit && !(status || pins.includes(info.id))) {

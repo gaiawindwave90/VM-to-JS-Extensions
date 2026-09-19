@@ -26,7 +26,7 @@ async function getRecentFiles() {
   const cached = checkCache();
   if (cached) return cached;
 
-  const repo = "SharkPool-SP/SharkPools-Extensions";
+  const repo = "gaiawindwave90/VM-to-JS-Extensions";
   const headers = { Accept: "application/vnd.github+json" };
   const expiryMarker = getExpiryWeekMarker();
 
@@ -57,7 +57,7 @@ async function getRecentFiles() {
     commitDate = `${commitDate.substring(5, commitDate.length)}-${commitDate.substring(0, 4)}`; // YYYY-MM-DD
 
     for (const file of commitData.files || []) {
-      if (file.filename.startsWith("extension-code/")) files.add({
+      if (file.filename.startsWith("code/")) files.add({
         ID: file.filename,
         date: commitDate,
         isNew: file.status === "added"

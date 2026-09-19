@@ -1,9 +1,6 @@
 /* These tags will always show when the tag bar is contracted */
 const STATIC_TAGS = [
-  "Expand", "All",
-  "Utility", "Sound",
-  "Data Management",
-  "Online", "Search"
+  "All", "Online", "IoT", "AI", "Search"
 ];
 
 const keyTags = {};
