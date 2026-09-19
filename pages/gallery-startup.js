@@ -46,7 +46,7 @@ function initGUI() {
   /* Donate Button */
   const donateBtn = document.querySelector(`button[class="donateBtn"]`);
   donateBtn.addEventListener("click", (e) => {
-    window.open("https://sharkpool-sp.github.io/donations/", "_blank");
+    window.open("https://www.scratchfoundation.org/donate", "_blank");
     e.stopImmediatePropagation();
   });
 
@@ -86,7 +86,7 @@ function initGUI() {
   /* GitHub Button */
   const gitRepoBtn = document.querySelector(`img[class="navImgBig"][id="gitRepo"]`);
   gitRepoBtn.addEventListener("click", (e) => {
-    window.open("https://github.com/SharkPool-SP/SharkPools-Extensions");
+    window.open("https://github.com/gaiawindwave90/VM-to-JS-Extensions");
     e.stopImmediatePropagation();
   });
 
@@ -283,7 +283,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     ];
 
     const params = new URLSearchParams(location.search);
-    isPenguinMod = params.get("originPM") === "true";
     isPotentiaMod = params.get("originPot") === "true";
     getCleanStorage();
 
