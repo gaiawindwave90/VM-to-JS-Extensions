@@ -1,31 +1,20 @@
 {
   "extensions": {
-    "YouTube-Operations": {
-      "desc": "Fetch and play Youtube videos and statistics in your Project",
-      "creator": "???",
-      "url": "YouTube-Operations.js",
-      "banner": "YouTube-Operations.svg",
+    "NFT Collection Utilities": {
+      "desc": "Create NFTs.",
+      "creator": "Digital Education Safety",
+      "url": "Scratch3NftBlocks.js",
+      "banner": "nft.png",
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
     },
-    "MIDI-Tools": {
-      "desc": "Utilities For Making Midi Notes Into Functions",
-      "creator": "???",
-      "url": "MIDI-Tools.js",
-      "banner": "MIDI-Tools.svg",
+    "Web kit": {
+      "desc": "Make your own webkit!",
+      "creator": "toonco1",
+      "url": "Scratch3WebKit.js",
+      "banner": "webKit.png",
       "tags": ["All"],
       "date": "Last Updated: 09/19/2026"
-    },
-    "Example": {
-      "desc": "",
-      "creator": "???",
-      "url": "Example.js",
-      "banner": "Example.svg",
-      "tags": ["All"],
-      "status": "",
-      "overrideLabeler": false,
-      "isDeprecated": false,
-      "date": "XYZ: MM/DD/YYYY"
     }
   },
   "extension-tags": [
