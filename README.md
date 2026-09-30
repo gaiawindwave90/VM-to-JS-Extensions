@@ -1,6 +1,5 @@
-## Welcome to SharkPools Extension Collection
-This Repository is home to all Turbowarp/PenguinMod Extensions made by **SharkPool**, a few were soley made by others.
-Please dont take any files from this gallery to put in someone elses gallery without prior permission from the creator.
+## Welcome to Former VM Extension Collection
+This Repository is home to all Turbowarp/PenguinMod/PotentiaMod Extensions that are normally built-in extensions. Most of these made by certain people, but I converted them into standalone TurboWarp/PenguinMod extensions.
 
 ## Contributing
 See [Adding Extensions.md](https://github.com/SharkPool-SP/SharkPools-Extensions/blob/main/Adding%20Extensions.md).
