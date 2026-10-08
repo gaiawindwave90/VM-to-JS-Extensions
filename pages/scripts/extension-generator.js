@@ -62,20 +62,36 @@ function displayExts(json, optFadeIn) {
 
 async function downloadExt(name, url) {
   url = "code/" + url;
-  if (isPotentiaMod) {
+  if (isSpecial) {
     const messager = window.opener || window.parent;
-    if (!messager) return alert("Failed to request to PotentiaMod!");
+    if (!messager) return alert("Failed to request to the editors!");
     messager.postMessage({
       loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
-    }, "https://potentiamod.github.io/editor.html");
+    }, "https://potentiamod.github.io/editor.html"); // PotentiaMod
     messager.postMessage({
       loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
-    }, "https://potentiamod.github.io/scratch-gui/editor.html"); // For development purposes
+    }, "https://potentiamod.github.io/scratch-gui/editor.html"); // PotentiaMod development version
+	    messager.postMessage({
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
+    }, "https://gaiawindwave90.github.io/GaiaMod/editor.html"); // GaiaMod
+	messager.postMessage({
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
+    }, "https://gaiamod-main.github.io/editor.html"); // GaiaMod Legacy
+	messager.postMessage({
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
+    }, "https://versolot.github.io/editor.html"); // Versolot
+	messager.postMessage({
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
+    }, "https://super-chaosmod.github.io/editor.html"); // Super chaosMod
+	messager.postMessage({
+      loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
+    }, "http://localhost:8601/editor.html"); // Only if it supports extensions loading to the editor like GaiaMod or PotentiaMod.
+	
 
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     genText(
       "center-notif",
-      `Copied to PotentiaMod!${isMobile ? "<br>" : " " }Check the Editor`
+      `Copied to the mods!${isMobile ? "<br>" : " " }Check the Editor`
     );
     return;
   }

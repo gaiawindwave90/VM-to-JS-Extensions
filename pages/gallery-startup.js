@@ -1,6 +1,7 @@
 /* Public Variables */
 let isPenguinMod = false;
 let isPotentiaMod = false;
+let isSpecial = false;
 let allTags, currentTags = ["all"];
 let downloadType = "download";
 let compress = false, eraseDeprecation = false;
@@ -105,9 +106,9 @@ function initGUI() {
     }
   }
 
-  if (isPotentiaMod) {
+  if (isSpecial) {
     const logo = document.querySelector(`img[class="toHost"]`);
-    logo.src = "pages/main-assets/logo-Pot.svg";
+    logo.src = "pages/main-assets/logo-special.svg";
     logo.setAttribute("onclick", "window.open('https://potentiamod.github.io/')");
   }
 }
@@ -283,7 +284,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ];
 
     const params = new URLSearchParams(location.search);
-    isPotentiaMod = params.get("originPot") === "true";
+    isSpecial = params.get("originSpecial") === "true";
     getCleanStorage();
 
     const urlTags = params.get("tag");

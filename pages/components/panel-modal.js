@@ -31,9 +31,9 @@ const settingsContainer = () => {
     </div>
     <img class="panel-leave" draggable="false" src="pages/main-assets/search-exit.svg"/>
     ${
-      isPotentiaMod ?
+      isSpecial ?
       `<div class="pm-descriptor"><i>
-        You are browsing the PotentiaMod version of the Gallery. Extensions are automatically added to the Editor when clicked
+        You are browsing the special version of the Gallery. Extensions are automatically added to the PotentiaMod and GaiaMod Editors when clicked
       </i></div>` : ""
     }`;
 };
@@ -112,7 +112,7 @@ class SettingsModal extends HTMLElement {
 
         .setting-holder {
           margin-top: 15px;
-          ${ isPotentiaMod ? "filter: blur(3px) brightness(75%);" : "" }
+          ${ isSpecial ? "filter: blur(3px) brightness(75%);" : "" }
         }
         .setting-div {
           width: 430px;
