@@ -76,7 +76,7 @@ async function downloadExt(name, url) {
     }, "https://gaiawindwave90.github.io/GaiaMod/editor.html"); // GaiaMod
 	messager.postMessage({
       loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
-    }, "https://gaiamod-main.github.io/editor.html"); // GaiaMod Legacy
+    }, "https://gaiamod-main.github.io/editor.html?newchallengersapporaching"); // GaiaMod Legacy
 	messager.postMessage({
       loadExt: `https://gaiawindwave90.github.io/VM-to-JS-Extensions/${url}`
     }, "https://versolot.github.io/editor.html"); // Versolot
